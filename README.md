@@ -32,6 +32,8 @@ server and the Wayback Machine alike):
 | ECTI-CON 2015 | some images and documents under `img/` and `doc/` |
 | ICA-SYMP 2026 | the home page header background image |
 
+ECTI-CARD 2018: the theme (dt-the7), plugins and `wp-content/uploads` are missing from the server backup and from the Wayback Machine, so the site has no styling or images. Its WordPress database did survive (`ecti_card2018content`); three hotel posts that Wayback never captured (The Grand Riverside Hotel, The Viewpoint Hotel, The Harmony Ville Apartment) were rebuilt from it with `tools/ecticard2018_hotels_from_db.py`. Every other published page in that database is already in the archive, or has no real content (empty, or only a pop-up script).
+
 Not archived on purpose: the paper-submission systems and anything containing authors' data,
 the `ecticon2023tmp` folder (a compromised copy of ECTI-CON 2023) and `icasymp2026.bak` (a
 duplicate). See `EXCLUDE.md`.
